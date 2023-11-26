@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <div class="d-flex">
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="flex-shrink-0 p-3z position-fixed">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none">
+                        <!-- <a class="navbar-brand text-light d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom" href="#">unknown society</a> -->
+                        <svg class="bi me-2" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                        <span class="fs-3 fw-semibold text-light text-center my-3">unknown society</span>
+                    </a>
+                    <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+                        <li class="nav-item mb-3">
+                            <a class="nav-link  " aria-current="page" href="index.html">
+                                <i class="bi bi-house text-light fs-3 fs-blod"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-light" href="./search.html">
+                                <i class="bi bi-search fs-3 fs-blod"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link  text-light" aria-current="page" href="videos.html">
+                                <i class="bi bi-play-btn fs-3 fs-blod"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link  text-light" aria-current="page" href="profile.html">
+                                <i class="bi bi-person fs-3 fs-blod"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- video section starts -->
+            <div class="col-lg-10 col-sm-12 my-2">
+                <div class="container">
+                    <div class="d-flex flex-column ">
+                        <!-- search card starts -->
+                        <div class="card text-bg-dark search_card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <input type="text" class="form-control videos_search_input" placeholder="search" />
+                                    <button class="btn btn-outline-secondary btn-lg border-start-0">
+                                        <i class="bi bi-search fs-4"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- search card ends -->
+                        <section class="video_img_grid">
+                            <div class="row justify-content-between p-0 m-0">
+                                <div class="col-lg-3 col-md-6 col-sm-12 video_card">
+                                    <div class="card text-bg-dark  w-100">
+                                        <img class="card-img-top video_card_img"
+                                            src="https://images.unsplash.com/photo-1682685796852-aa311b46f50d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            alt="video thumb line">
+                                        <div class="card-body">
+                                            <h5 class="card-title">our journey</h5>
+                                            <p class=" text-secondary">220 views</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 video_card">
+                                    <div class="card text-bg-dark ">
+                                        <img class="card-img-top video_card_img"
+                                            src="https://images.unsplash.com/photo-1700566070913-12fe438ffb7c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            alt="video thumb line">
+                                        <div class="card-body">
+                                            <h5 class="card-title">our journey</h5>
+                                            <p class=" text-secondary">220 views</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 video_card">
+                                    <div class="card text-bg-dark ">
+                                        <img class="card-img-top video_card_img"
+                                            src="https://images.unsplash.com/photo-1700597425561-51281662b0c4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            alt="video thumb line">
+                                        <div class="card-body">
+                                            <h5 class="card-title">our journey</h5>
+                                            <p class=" text-secondary">220 views</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 video_card">
+                                    <div class="card text-bg-dark ">
+                                        <img class="card-img-top video_card_img"
+                                            src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            alt="video thumb line">
+                                        <div class="card-body">
+                                            <h5 class="card-title">our journey</h5>
+                                            <p class=" text-secondary">220 views</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 video_card">
+                                    <div class="card text-bg-dark ">
+                                        <img class="card-img-top video_card_img"
+                                            src="https://images.unsplash.com/photo-1596727147705-61a532a659bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            alt="video thumb line">
+                                        <div class="card-body">
+                                            <h5 class="card-title">our journey</h5>
+                                            <p class=" text-secondary">220 views</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- video section ends -->
+
+            <!-- Bottom Navbar starts -->
+            <div class=" d-lg-none d-sm-block fixed-bottom  navbar-dark bg-dark">
+                <div class="d-flex  align-items-center justify-content-around py-2">
+                    <a href="index.html">
+                        <i class="bi bi-house text-light fs-3 fs-blod"></i>
+                    </a>
+                    <a href="./search.html">
+                        <i class="bi bi-search text-light fs-3 fs-blod"></i>
+                    </a>
+                    <a href="videos.html">
+                        <i class="bi bi-play-btn text-light fs-3 fs-blod"></i>
+                    </a>
+                    <a href="profile.html">
+                        <i class="bi bi-person text-light fs-3 fs-blod"></i>
+                    </a>
+                    </dvi>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Navbar ends -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

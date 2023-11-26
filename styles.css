@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #000000;
+}
+
+/* post card styles */
+.post_card_container {
+  padding: 0;
+  width: 500px;
+}
+.post_card {
+  width: 450px;
+  height: auto;
+}
+.post_card_dp {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 10px 10px;
+}
+.post_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* search styles */
+.result_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  justify-items: center;
+}
+
+.result_img_container {
+  width: 100%;
+  padding: 0;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* videos page style */
+.search_card {
+  width: 90%;
+}
+.videos_search_input {
+}
+.video_img_grid {
+}
+
+.video_card { /* Set the desired fixed height */
+  padding: 8px;
+  object-fit: cover;
+  margin-bottom: 5px;
+} 
+.video_card_img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-fit: cover;
+}
+
+
+/* profile page style */
+.profile_card_dp{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.profile_img_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  justify-items: center;
+}
+.profile_img_container{
+  width: 100%;
+  height: 250px;
+}
+
+.profile_img_grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .post_card_container {
+    width: 100%;
+  }
+  .post_card {
+    width: 100%;
+  }
+
+  /* search style */
+  .result_img_container {
+    width: 100%;
+    padding: 0;
+  }
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* video styles */
+  .search_card {
+    width: 100%;
+  }
+  .video_card { 
+    padding: 5px;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  .video_card_img { 
+    height: auto;
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover;
+  }
+
+  /* profile styles */
+  .profile_img_container{
+    width: 100%;
+    height: 150px;
+  }
+}
