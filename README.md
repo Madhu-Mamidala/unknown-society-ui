@@ -1,8 +1,10 @@
 # Hi there
 
 **unknown society  UI**
+
 - stacks used 🖥️
-  -  **html,css,bootstrap**
+  - **html,css,bootstrap**
+
 ---
 Day **01**
 
