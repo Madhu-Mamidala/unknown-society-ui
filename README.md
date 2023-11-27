@@ -1,10 +1,22 @@
-<!-- Hello  -->
+# Hi there
 
-# I am MADHU 
+**unknown society  UI**
+- stacks used 🖥️
+  -  **html,css,bootstrap**
+---
+Day **01**
 
-i am develop this unknown-society user-inter face and make to this project alive.
+**🗓️ Date : 26-NOV-2023**
 
+- created a basic front-end for our web-application 🖥️
+- basic html and styling bootstrap
 
-used stacks
+---
 
-# html , css , bootstrap
+Day **02**
+
+**🗓️ Date : 27-NOV-2023**
+
+- created a **top nav bar** and fixed layouts.
+- added **bottom nav bar** for mobile sized screens
+- added small edits on **sidebar** menu

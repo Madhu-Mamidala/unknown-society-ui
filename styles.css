@@ -7,6 +7,16 @@
 body {
   color: #fff;
   background-color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+/* top nav  */
+.nav_unknown{
+  margin: 2px;
+  padding: 5px;  
+  color: #000000;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 5px;  
 }
 
 /* post card styles */
@@ -53,15 +63,14 @@ body {
 
 /* videos page style */
 .search_card {
-  width: 90%;
 }
 .videos_search_input {
 }
 .video_img_grid {
 }
 
-.video_card { /* Set the desired fixed height */
-  padding: 8px;
+.video_card { 
+  padding: 5px;
   object-fit: cover;
   margin-bottom: 5px;
 } 
