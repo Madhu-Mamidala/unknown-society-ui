@@ -44,3 +44,10 @@ Day **04**
 - fixed hyper links
 
 ---
+
+Day **05**
+
+**🗓️ Date : 03-DEC-2023**
+
+- fixed side nav bar with bootstrap col classes
+- added new **UI** pages 🧑‍💻
