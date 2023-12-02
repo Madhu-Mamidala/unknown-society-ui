@@ -32,5 +32,15 @@ Day **03**
 - created **public and private** profile pages
 - created each posts **post single page**
 - for the two profiles one is **public** and another one is **private** pages
-- fixed layouts with **Bootstrap**  
+- fixed layouts with **Bootstrap**
 
+---
+Day **04**
+
+**🗓️ Date : 02-DEC-2023**
+
+- added **create post** UI page
+- fixed layouts with **Bootstrap**
+- fixed hyper links
+
+---
