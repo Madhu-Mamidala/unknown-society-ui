@@ -18,7 +18,11 @@ body {
   background-color: #fff;
   border-radius: 5px;  
 }
-
+.nav-m{
+  background: rgba(255, 255, 255, 0.2); /* Adjust the alpha channel for navbar transparency */
+  backdrop-filter: blur(10px); /* Add a blur effect to create a glass effect */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0); /* Optional: Add a border for better visibility */
+}
 /* post card styles */
 .post_card_container {
   padding: 0;
