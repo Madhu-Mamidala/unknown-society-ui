@@ -51,3 +51,4 @@ Day **05**
 
 - fixed side nav bar with bootstrap col classes
 - added new **UI** pages 🧑‍💻
+- added top nav bar for mobile sized screens.
