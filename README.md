@@ -52,3 +52,11 @@ Day **05**
 - fixed side nav bar with bootstrap col classes
 - added new **UI** pages 🧑‍💻
 - added top nav bar for mobile sized screens.
+
+---
+
+Day **06**
+
+**🗓️ Date : 04-DEC-2023**
+
+- added chat page **UI**
