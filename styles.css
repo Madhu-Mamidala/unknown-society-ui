@@ -131,7 +131,15 @@ body {
   height: 40px;
   border-radius:50%;
 }
+.message{
+  max-width: 70%;
+  word-wrap:break-word; 
+}
 
+.chat-section{
+  max-height: 70vh;
+  overflow-y: auto;
+}
 @media (max-width: 768px) {
   .post_card_container {
     width: 100%;
